@@ -31,5 +31,5 @@ simple ftp client on command line interface written in python 3.
 
 ## Example:
 
-	![example](images/example.png)
+![example](images/example.png)
 	
