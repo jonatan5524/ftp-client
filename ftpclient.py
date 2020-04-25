@@ -6,7 +6,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('host',help='host name or ip address of the ftp server')
 parser.add_argument('-p','--port',help='port number to onnect to, defualt port nubmer: 21',default=21,type=int)
 parser.add_argument('-u','--username',help='username to the ftp server, defualt username: anonymous',default='anonymous')
-parser.add_argument('--password','--pass',help='password to the ftp server, defualt username: anonymous',default='anonymous')
+parser.add_argument('--password','--pass',help='password to the ftp server, defualt password: anonymous',default='anonymous')
 args = parser.parse_args()
 
 class ftpClient:
